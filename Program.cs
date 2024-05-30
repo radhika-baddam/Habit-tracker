@@ -21,6 +21,7 @@ namespace Habit_tracker
                         Date TEXT,
                         Quantity INTEGER
                         )";
+                //@ is used to give mutliline statements
 
                 tableCmd.ExecuteNonQuery();
 
